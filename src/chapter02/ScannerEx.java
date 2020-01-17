@@ -14,11 +14,10 @@ public class ScannerEx {
                 System.out.println("두 자리 정수가 아닙니다.");
             }
             System.out.print("두 자리 정수를 하나 입력하세요> ");
-            input = scanner.nextLine();
+            input = scanner.next();
             num = Integer.parseInt(input);
             flag = true;
         }while (!((num > 10) && (num < 100)));
-
 
         System.out.println("입력내용: " + input);
         System.out.println("num = " + num);
