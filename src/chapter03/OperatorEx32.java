@@ -20,6 +20,6 @@ public class OperatorEx32 {
 
         System.out.printf("x=%c%d\n", signX, absX);
         System.out.printf("y=%c%d\n", signY, absY);
-        System.out.printf("z=%c%d\n", signZ, absZ );
+        System.out.printf("z=%c%d\n", signZ, absZ);
     }
 }
